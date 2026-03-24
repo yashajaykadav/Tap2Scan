@@ -1,0 +1,42 @@
+name: simple_doc_scanner
+description: "Easy document scanner for everyone."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  camera: ^0.12.0
+  google_mlkit_document_scanner: ^0.4.1
+  pdf: ^3.11.3
+  path_provider: ^2.1.5
+  share_plus: ^12.0.1
+  permission_handler: ^12.0.1
+  flutter_riverpod: ^3.2.1
+  image: ^4.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
